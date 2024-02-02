@@ -1,1 +1,198 @@
-style.css
+/* Fonts */
+
+@font-face {
+  font-family: Guisol;
+  src: url('./images/guisol.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Canterbury;
+  src: url('./images/Canterbury.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Engravers MT";
+    src: url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.eot");
+    src: url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.svg#Engravers MT")format("svg");
+}
+
+@import url(https://db.onlinewebfonts.com/c/3135c98efb051f346203c2f2ed708638?family=Engravers+MT);
+
+/* Typo */
+
+
+h1 {
+  font-family: Guisol, sans-serif;
+}
+
+h2 {
+  font-family: Canterbury, sans-serif;
+}
+
+h3 {
+  font-family: "Engravers MT";
+}
+
+h4, h5 {
+  font-family: Helvitica Neue, sans-serif;
+}
+
+p {
+  font-family: Helvitica Neue, sans-serif;
+}
+
+/* Master Container */
+
+.mstr_cntr {
+  position: fixed; /* Position the div relative to the viewport */
+  top: 50%; /* Align the top edge of the div to the vertical center */
+  left: 50%; /* Align the left edge of the div to the horizontal center */
+  transform: translate(-50%, -50%); /* Move the div up and left by half of its width and height */
+}
+
+
+/* Grid */
+
+.grid-container {
+display: grid;
+ grid-template-columns: 80px 86px 26px 80px 20px 20px 100px 56px 10px 22px; /* Different widths for each column */
+  grid-template-rows: 36px 22px 16px 32px 18px 56px 24px 26px 20px 60px 20px 34px 16px 70px 50px; /* Different heights for each row */
+  width: 500px; /* Total width of the grid (10 columns * 100px) */
+  height: 500px; /* Total height of the grid (10 rows * 100px) */
+  margin: auto; /* Center horizontally */
+
+}
+
+/* Img */
+
+.shing_str_0 {
+  grid-column: 1 / span 2; /* Image spans from column 8 to column 10 */
+  grid-row: 4; /* Image is placed in the fourth row */
+  background-color: transparent;
+}
+
+.shing_str_1 {
+  grid-column: 8 / span 3; /* Image spans from column 8 to column 10 */
+  grid-row: 4; /* Image is placed in the fourth row */
+  background-color: transparent;
+}
+
+.shing_str_2 {
+  grid-column: 1 / span 2; /* Image spans from column 8 to column 10 */
+  grid-row: 14; /* Image is placed in the fourth row */
+  background-color: transparent;
+} 
+
+.shing_str_3 {
+  grid-column: 10 / span 1; /* Image spans from column 8 to column 10 */
+  grid-row: 12; /* Image is placed in the fourth row */
+  background-color: transparent;
+} 
+
+.br_cde {
+  grid-column: 6 / span 5; /* Image spans from column 8 to column 10 */
+  grid-row: 10; /* Image is placed in the fourth row */
+  background-color: transparent;
+} 
+
+/* Img-Txt */
+
+.hr_me_nw {
+  grid-column: 1 / span 10; /* Image spans from column 8 to column 10 */
+  grid-row: 6; /* Image is placed in the fourth row */
+  font-size: 83.5px;
+  margin:0px;
+  line-height: 80%;
+  color:#DB121A; 
+}
+
+.sr_nm {
+  grid-column: 4 / span 7; /* Image spans from column 8 to column 10 */
+  grid-row: 14; /* Image is placed in the fourth row */
+  margin: 0;
+  font-size: 96px;
+  line-height:81px;
+  font-weight: 100;
+
+/*
+
+  font-size: 83.5px;
+  margin:0px;
+  line-height: 80%;
+  color:#DB121A; 
+
+ */
+
+}
+
+  .fr_nm {
+  grid-column: 1 / span 4; /* Image spans from column 8 to column 10 */
+  grid-row: 10; /* Image is placed in the fourth row */
+  font-size: 82px;
+  margin: 0;
+  line-height: 71px;
+  font-weight: 100;
+
+/*
+
+  margin: 0;
+  font-size: 96px;
+  line-height:81px;
+  font-weight: 100;
+
+   */
+
+}
+
+.hr_me_nw_rs {
+  grid-column: 1 / span 10; /* Image spans from column 8 to column 10 */
+  grid-row: 8; /* Image is placed in the fourth row */
+  margin:0px;
+  font-weight: 100;
+  font-size:17px;
+
+
+/*
+
+  font-size: 83.5px;
+  margin:0px;
+  line-height: 80%;
+  color:#DB121A; 
+
+  */
+
+}
+
+.para_txt {
+
+  grid-column: 1 / span 5; 
+  grid-row: 12; 
+  font-weight: 500;
+  margin: 0;
+  font-size: 11.1px;
+  
+} 
+
+  .dsh{
+
+  grid-column: 7 / span 2; /* Image spans from column 8 to column 10 */
+  grid-row: 12; /* Image is placed in the fourth row */
+  font-weight: 200;
+  margin: 0;
+  font-size: 16.3px;
+
+}
+
+
+.call {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    font-size: 17.7px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.3;
+}
