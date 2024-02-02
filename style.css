@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: Canterbury;
-  src: url('./images/Canterbury.ttf') format('truetype');
+  src: url('https://res.cloudinary.com/chriskelly-it/raw/upload/v1706899874/Canterbury_blrizf.ttf') format('truetype');
 }
 
 @font-face {
