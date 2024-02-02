@@ -39,7 +39,9 @@ h3 {
 }
 
 h4, h5 {
-  font-family: Helvitica Neue, sans-serif;
+   font-family: Helvitica Neue, sans-serif;
+   color: inherit;
+   text-decoration: none;
 }
 
 p {
