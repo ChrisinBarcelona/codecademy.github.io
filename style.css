@@ -40,8 +40,6 @@ h3 {
 
 h4, h5 {
    font-family: Helvitica Neue, sans-serif;
-   color: inherit;
-   text-decoration: none;
 }
 
 p {
@@ -180,7 +178,7 @@ display: grid;
   
 } 
 
-  .dsh{
+  .dsh {
 
   grid-column: 7 / span 2; /* Image spans from column 8 to column 10 */
   grid-row: 12; /* Image is placed in the fourth row */
@@ -198,4 +196,6 @@ display: grid;
     font-weight: 600;
     margin: 0;
     line-height: 1.3;
+    color: inherit;
+    text-decoration: none;
 }
